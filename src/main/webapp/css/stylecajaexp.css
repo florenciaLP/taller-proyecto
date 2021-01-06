@@ -1,0 +1,300 @@
+/*diseño experiencias*/
+.contenedor {
+	height: 100%;
+	padding: 2% 0;
+}
+
+.container_foto {
+	background-color: rgba(57, 62, 93, 0.7);
+	padding: 0;
+	overflow: hidden;
+}
+
+.container_foto article {
+	padding: 10%;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.container_foto h2 {
+	color: #fff;
+	font-weight: 800;
+	font-size: 25px;
+	border-bottom: #fff solid 1px;
+}
+
+.container_foto h4 {
+	font-weight: 300;
+	color: #fff;
+	font-size: 16px;
+}
+
+.container_foto img {
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+	-webkit-transition: all 4s ease;
+	-moz-transition: all 4s ease;
+	-o-transition: all 4s ease;
+	-ms-transition: all 4s ease;
+	transition: all 4s ease;
+}
+
+.image {
+	object-fit: cover;
+	object-position: center center;
+}
+
+.canjear-btn {
+	border: 1px solid #82D173 !important;
+}
+
+.canjear-btn:hover {
+	border: 1px solid #82D173 !important;
+	background-color: #82D173 !important;
+}
+
+/*hovers*/
+.container_foto:hover {
+	cursor: pointer;
+}
+
+.container_foto:hover img {
+	opacity: 0.1;
+	transform: scale(1.5);
+}
+
+.container_foto:hover article {
+	transform: translate(2px, -69px);
+	-webkit-transform: translate(2px, -69px);
+	-moz-transform: translate(2px, -69px);
+	-o-transform: translate(2px, -69px);
+	-ms-transform: translate(2px, -69px);
+}
+
+.container_foto:hover .ver_mas {
+	transform: translate(0px, 0px);
+	-webkit-transform: translate(0px, 0px);
+	-moz-transform: translate(0px, 0px);
+	-o-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+#experiencias {
+	display: none;
+}
+
+/*T�TULOS*/
+.masthead-heading {
+	font-size: 2.3rem;
+	font-weight: 700;
+	line-height: 3.25rem;
+	margin-bottom: 2rem;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	position: relative;
+}
+
+/*INFORMACI�N DE LA CAJA*/
+.data-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#ver, #regalar {
+	background-color: #5bc0de;
+	border-color: transparent;
+}
+
+#regalar {
+	background-color: #82D173;
+}
+
+/*MODAL*/
+strong {
+	font-weight: 500;
+}
+
+a, a:hover, a:focus {
+	color: #fd625e;
+	text-decoration: none;
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+
+::-moz-selection {
+	background: #fd625e;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background: #fd625e;
+	color: #fff;
+	text-shadow: none;
+}
+
+.btn-link-1 {
+	display: inline-block;
+	height: 50px;
+	margin: 0 5px;
+	padding: 16px 20px 0 20px;
+	background: #fd625e;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 16px;
+	color: #fff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active {
+	outline: 0;
+	opacity: 0.6;
+	color: #fff;
+}
+
+/***** Modal *****/
+.modal-content {
+	background: #3a3a3a;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 0;
+	text-align: left;
+}
+
+.modal-header {
+	padding: 25px 25px 15px 25px;
+	background: #333;
+	border: 0;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	color: #888;
+	display: flex;
+	flex-direction: column;
+}
+
+.modal-header .close {
+	font-size: 36px;
+	color: #eee;
+	font-weight: 300;
+	text-shadow: none;
+	opacity: 1;
+}
+
+.modal-title {
+	margin-bottom: 10px;
+	line-height: 30px;
+	color: #eee;
+}
+
+.modal-body {
+	padding: 25px 25px 30px 25px;
+	background-color: #fff;
+	text-align: left;
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+.modal-body form textarea {
+	height: 100px;
+}
+
+.modal-body form .input-error {
+	border-color: #fd625e;
+}
+
+/***** Media queries *****/
+@media ( min-width : 992px) and (max-width: 1199px) {
+}
+
+@media ( min-width : 768px) and (max-width: 991px) {
+}
+
+@media ( max-width : 767px) {
+	.top-content .top-big-link {
+		margin-top: 25px;
+	}
+	.top-content .top-big-link a.btn {
+		margin-top: 10px;
+	}
+}
+
+@media ( max-width : 415px) {
+	h1, h2 {
+		font-size: 32px;
+	}
+}
+
+input[type="text"], textarea, textarea.form-control {
+	height: 50px;
+	margin: 0;
+	padding: 0 20px;
+	vertical-align: middle;
+	background-color: #fff;
+	border: 1px solid #333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 50px;
+	color: #888;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+
+textarea, textarea.form-control {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 30px;
+}
+
+input[type="text"]:focus, textarea:focus, textarea.form-control:focus {
+	outline: 0;
+	background: #444;
+	border: 3px solid #555;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: white;
+}
+
+input[type="text"]:-moz-placeholder, textarea:-moz-placeholder, textarea.form-control:-moz-placeholder
+	{
+	color: #888;
+}
+
+input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder,
+	textarea.form-control:-ms-input-placeholder {
+	color: #888;
+}
+
+input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder,
+	textarea.form-control::-webkit-input-placeholder {
+	color: #888;
+}
