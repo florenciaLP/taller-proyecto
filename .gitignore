@@ -15,7 +15,7 @@ derby.log
 .gradle
 argfile*
 activemq-data/
-*hibernateContext.xml
+hibernateContext.xml
 MANIFEST.MF
 
 #Docker

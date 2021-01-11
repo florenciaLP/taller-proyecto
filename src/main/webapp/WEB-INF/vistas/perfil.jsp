@@ -23,9 +23,9 @@
 			</div>
 			<div class="container">
 				<div class="photo-container">
-					<img
+					<!-- <img
 						src="https://lh3.googleusercontent.com/proxy/QLT_YEwY0np6TLIMtoZl8SUzXmOFcSLFf75CJpf43IBAPD9RvF4SV4Th__IiV_nIr-spr5NMt2Y6m7ziPYeSSKJhXmxrG84kCn3Pj7BhMPv6sPZL257ArsLpxZiN7YUJtMu70hU"
-						alt="">
+						alt=""> -->
 				</div>
 				<h4 class="title">${usuario.nombreUsuario}</h4>
 				<p class="category">${usuario.email}</p>
@@ -187,8 +187,9 @@
 	</div>
 
 	<%@ include file="./layout/Footer.jsp"%>
+	<script src="js/home.js"></script>
 
-	<script>
+	<script>	
 		(function($) {
 			var tabs = $(".tabs li a");
 			tabs.click(function() {
@@ -199,6 +200,8 @@
 				$(content).fadeIn(200);
 			});
 		})(jQuery);
+		
+		
 	</script>
 </body>
 </html>

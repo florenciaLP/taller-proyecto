@@ -10,7 +10,10 @@
 <body>
 	<%@ include file="./layout/Header.jsp"%>
 
-
+<style>
+#mainNav {
+	background-color: #212529 !important;
+}</style>
 	<div class="container mt-5 pt-5">
 		<div class="masthead-heading text-uppercase">Caja de regalo</div>
 	</div>
