@@ -3,22 +3,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>One Gift | Home</title>
+<title>One Gift | Caja de regalo</title>
 <link rel="icon" type="image/png" href="https://i.postimg.cc/mZzv5Z2r/gift.png" />
 <link href="css/stylecajaexp.css" rel="stylesheet">
 </head>
 <body>
 	<%@ include file="./layout/Header.jsp"%>
 
-<style>
-#mainNav {
-	background-color: #212529 !important;
-}</style>
+
 	<div class="container mt-5 pt-5">
 		<div class="masthead-heading text-uppercase">Caja de regalo</div>
 	</div>
 
-	<div class="container mt-3">
+	<div class="container mt-3 mb-5">
 		<div class="card-deck row">
 			<div class="col-7">
 				<img src="${caja.imagen}" class="card-img-top img-fluid">
@@ -35,9 +32,10 @@
 					</p>
 				</div>
 				<div class="w-100 d-flex mt-5">
-					<a class="btn btn-info btn-xl w-50 m-1" onclick="mostrar()"
-						id="ver">Ver dentro</a> <a class="btn btn-danger btn-xl w-50 m-1"
-						data-toggle="modal" data-target="#myModal" id="regalar">Regalar</a>
+					<a class="btn btn-primary btn-xl w-50 m-1" onclick="mostrar()">
+						Ver dentro</a> 
+					<a class="btn btn-secondary btn-xl text-dark w-50 m-1" data-toggle="modal" data-target="#myModal">
+					Regalar</a>
 				</div>
 
 			</div>
@@ -114,9 +112,6 @@
 			</c:forEach>
 		</div>
 	</div>
-
-
-
 
 
 	<%@ include file="./layout/Footer.jsp"%>

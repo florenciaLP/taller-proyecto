@@ -108,6 +108,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	border-color: transparent;
 }
 
+.btn-secondary {
+	color: #fff;
+	border-color: #82D173;
+	background-color: #82D173;
+}
+
+.btn-secondary:hover {
+	background-color: #82D173;
+	font-weight: bold;
+	border-color: transparent;
+}
+
+.btn-secondary:focus {
+	background-color: #82D173;
+	border-color: transparent;
+}
+
 .btn-dark {
 	color: #fff;
 	background-color: #343a40;
@@ -122,7 +139,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 
-/*NAV*/
+/***** nav *****/
+
 .collapse:not(.show) {
 	display: none;
 }
@@ -208,7 +226,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	z-index: 1030;
 }
 
-/*TEXTOS*/
+/***** textos *****/
+
 .text-center {
 	text-align: center !important;
 }
@@ -234,7 +253,9 @@ i.white {
 }
 
 
-/*STICKY NAV*/
+
+/***** sticky nav *****/
+
 #mainNav {
 	background-color: #212529;
 	-webkit-transition: all ease-out .2s;
@@ -264,7 +285,7 @@ i.white {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-	font-size: 0.95rem;
+	font-size: 1rem;
 	color: #fff;
 	letter-spacing: 0.0625em;
 }
@@ -272,6 +293,7 @@ i.white {
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover
 	{
 	color: #5bc0de;
+	font-weight: bold;
 }
 
 @media ( min-width : 992px) {
@@ -310,7 +332,7 @@ i.white {
 }
 
 
-/*HEADER*/
+/***** header *****/
 
 header.masthead {
 	padding-top: 10.5rem;
@@ -322,7 +344,7 @@ header.masthead {
 	background-attachment: scroll;
 	background-position: bottom;
 	background-size: cover;
-	height: 85vh;
+	height: 100vh;
 	position: relative;
 }
 
@@ -377,7 +399,9 @@ header.masthead:before {
 	}
 }
 
-/*FOOTER*/
+
+/***** footer *****/
+
 .footer {
 	text-align: center;
 	font-size: 0.9rem;
