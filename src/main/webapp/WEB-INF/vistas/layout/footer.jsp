@@ -3,6 +3,7 @@
 
 
 <footer class="footer py-4">
+
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-4 text-lg-left">Copyright © OneGift 2020</div>
@@ -15,6 +16,7 @@
 			</div>
 		</div>
 	</div>
+	
 </footer>
 
 <script src="js/jquery-3.5.1.min.js"></script>

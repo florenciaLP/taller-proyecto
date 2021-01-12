@@ -186,7 +186,7 @@
 		</div>
 	</div>
 
-	<%@ include file="./layout/Footer.jsp"%>
+	<%@ include file="./layout/footer.jsp"%>
 	<script src="js/home.js"></script>
 
 	<script>	

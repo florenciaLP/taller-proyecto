@@ -4,7 +4,8 @@
 <html>
 <head>
 <title>One Gift | Home</title>
-<link rel="icon" type="image/png" href="https://i.postimg.cc/mZzv5Z2r/gift.png" />
+<link rel="icon" type="image/png"
+	href="https://i.postimg.cc/mZzv5Z2r/gift.png" />
 </head>
 <body>
 <body id="page-top">
@@ -87,14 +88,14 @@
 						class="fas fa-gift fa-stack-1x fa-inverse"></i>
 					</span>
 					<h4 class="my-3">Disfrutar</h4>
-					<p class="text-muted">El beneficiaro elige una
-						experiencia de la caja para canjear</p>
+					<p class="text-muted">El beneficiaro elige una experiencia de
+						la caja para canjear</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<%@ include file="./layout/Footer.jsp"%>
+	<%@ include file="./layout/footer.jsp"%>
 	<script src="js/home.js"></script>
 </body>
 

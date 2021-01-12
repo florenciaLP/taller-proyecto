@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/header.css" rel="stylesheet">
-<link href="css/Style.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 
 <script src="https://kit.fontawesome.com/222a3ac483.js"
 	crossorigin="anonymous"></script>
