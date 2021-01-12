@@ -58,7 +58,7 @@
 
 	</div>
 
-	<%@ include file="./layout/footer.jsp"%>
+	<%@ include file="./layout/Footer.jsp"%>
 
 	<!-- JS -->
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>

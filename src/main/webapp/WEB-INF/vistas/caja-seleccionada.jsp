@@ -119,7 +119,7 @@
 
 
 
-	<%@ include file="./layout/footer.jsp"%>
+	<%@ include file="./layout/Footer.jsp"%>
 	<script src="js/experiencias.js"></script>
 </body>
 </html>
