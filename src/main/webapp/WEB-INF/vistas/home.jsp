@@ -2,26 +2,31 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
+
 <head>
 <title>One Gift | Home</title>
 <link rel="icon" type="image/png"
 	href="https://i.postimg.cc/mZzv5Z2r/gift.png" />
 </head>
-<body>
+
 <body id="page-top">
 	<%@ include file="./layout/Header.jsp"%>
+	
 	<div class="darker">
 
 		<!-- Carousel-->
 		<header class="masthead">
 			<div class="container">
+				
 				<div class="masthead-subheading">Regalá una caja de regalos</div>
 				<div class="masthead-heading text-uppercase">Llena de
 					experiencias</div>
 				<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
 					href="#cajas">VER MÁS</a>
+			
 			</div>
 		</header>
+		
 	</div>
 
 	<section class="page-section" id="cajas">
@@ -97,7 +102,6 @@
 
 	<%@ include file="./layout/footer.jsp"%>
 	<script src="js/home.js"></script>
+
 </body>
-
-
 </html>
