@@ -1,0 +1,209 @@
+display-flex, .display-flex, .display-flex-center {
+	display: flex;
+}
+
+list-type-ulli {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a:focus, a:active {
+	text-decoration: none;
+	outline: none;
+	transition: all 300ms ease 0s;
+}
+
+input, select, textarea {
+	outline: none;
+	appearance: unset !important;
+}
+
+input:focus, select:focus, textarea:focus {
+	outline: none;
+	box-shadow: none !important;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+figure {
+	margin: 0;
+}
+
+p {
+	margin-bottom: 0px;
+	font-size: 15px;
+	color: #777;
+}
+
+h2 {
+	line-height: 1.66;
+	margin: 0;
+	padding: 0;
+	font-weight: 900;
+	color: #222;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.8;
+	color: #222;
+	font-weight: 400;
+	margin-top: -2rem !important;
+}
+
+.container {
+	width: 660px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.display-flex {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.display-flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.position-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.signup-content {
+	background: #fff;
+	border-radius: 10px;
+	padding: 0px 85px;
+}
+
+.form-group {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.form-input {
+	width: 100%;
+	border: 1px solid #ebebeb;
+	border-radius: 5px;
+	padding: 17px 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-weight: 500;
+	color: #222;
+}
+
+.form-input:focus {
+	border: 1px solid transparent;
+	border-image-source: linear-gradient(to right, #9face6, #74ebd5);
+	border-image-slice: 1;
+	border-radius: 5px;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+.form-input:focus::-webkit-input-placeholder {
+	color: #222;
+}
+
+.form-input:focus::-moz-placeholder {
+	color: #222;
+}
+
+.form-input:focus:-ms-input-placeholder {
+	color: #222;
+}
+
+.form-input:focus:-moz-placeholder {
+	color: #222;
+}
+
+.form-submit {
+	width: 100%;
+	border-radius: 5px;
+	padding: 17px 20px !important;
+	box-sizing: border-box;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+}
+
+.loginhere {
+	color: #555;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 5px;
+}
+
+.loginhere-link {
+	font-weight: 700;
+	color: #222;
+}
+
+.field-icon {
+	float: right;
+	margin-right: 17px;
+	margin-top: -32px;
+	position: relative;
+	z-index: 2;
+	color: #555;
+}
+
+.zmdi {
+	display: inline-block;
+	font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+	font-size: inherit;
+	text-rendering: auto;
+}
+
+.zmdi-eye-off:before {
+	content: '\f15b';
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: calc(100% - 40px);
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.signup-content {
+		padding: 50px 25px;
+	}
+}
+
+/*FONTS*/
+.signup-content .masthead-subheading {
+	font-size: 1.1rem !important;
+	margin-bottom: 3rem !important;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-style: normal;
+	font-weight:normal;
+}
+
+.masthead-heading {
+	font-size: 2.8rem !important;
+	margin-bottom: 1rem !important;
+}
+
+i {
+	cursor: pointer;
+}

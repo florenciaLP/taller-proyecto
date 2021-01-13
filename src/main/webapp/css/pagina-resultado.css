@@ -1,0 +1,25 @@
+.icon-result {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+	border-radius: 50%;
+	box-shadow: 0 0 0 2px #ff0000;
+	padding: 11px 10px 2px;
+	margin-bottom: 2em;
+}
+
+.ok {
+	box-shadow: 0 0 0 2px #48DB71;
+}
+
+.icon-result svg {
+	margin-bottom: 1rem;
+}
+
+.contenedor-error h1 {
+	font-size: 3.5rem;
+}
+
+.contenedor-error p {
+	font-size: 1.3rem;
+}
