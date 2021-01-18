@@ -73,7 +73,7 @@
 
 	</div>
 
-	<%@ include file="./layout/Footer.jsp"%>
+	<%@ include file="./layout/footer.jsp"%>
 
 	<!-- JS -->
 	<script src="js/iniciarSesion.js" type="text/javascript"></script>

@@ -4,6 +4,19 @@
 
 
 
+/***** breadcrumb *****/
+
+.breadcrumb-btn{
+	background-color:transparent !important;
+	border:none;
+}
+
+.breadcrumb-btn:hover{
+	color: #5bc0de;
+	font-weight: bolder;
+}
+
+
 /***** experiencias *****/
 
 .contenedor {
@@ -15,6 +28,7 @@
 	background-color: rgba(57, 62, 93, 0.7);
 	padding: 0;
 	overflow: hidden;
+	max-height: 33.5rem;
 }
 
 .container_foto article {
@@ -46,7 +60,7 @@
 	width: 100%;
 	top: 0;
 	left: 0;
-	opacity: 0.4;
+	opacity: 0.6;
 	-webkit-transition: all 4s ease;
 	-moz-transition: all 4s ease;
 	-o-transition: all 4s ease;
