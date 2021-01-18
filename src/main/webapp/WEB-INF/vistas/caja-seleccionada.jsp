@@ -4,7 +4,8 @@
 <html>
 <head>
 <title>One Gift | Caja de regalo</title>
-<link rel="icon" type="image/png" href="https://i.postimg.cc/mZzv5Z2r/gift.png" />
+<link rel="icon" type="image/png"
+	href="https://i.postimg.cc/mZzv5Z2r/gift.png" />
 <link href="css/stylecajaexp.css" rel="stylesheet">
 </head>
 <body>
@@ -12,21 +13,30 @@
 
 
 	<div class="container mt-5 pt-5">
-	
-			a completar
+
 		<nav aria-label="breadcrumb">
-		  <ol class="breadcrumb">
-		    <li class="breadcrumb-item"><a href="#">Home</a></li>
-		    <li class="breadcrumb-item"><a href="#">Library</a></li>
-		    <li class="breadcrumb-item"><a href="#">ads</a></li>
-		  </ol>
+			<ol class="breadcrumb mt-2 mb-5">
+				<c:forEach items="${cajas}" var="caja">
+					<form:form method="POST" action="mostrarCaja"
+						modelAttribute="CajaDeRegalo" class="form-container">
+						<form:hidden path="numeroDeCaja" value="${caja.numeroDeCaja}" />
+
+						<li class="breadcrumb-item mr-3">
+							<form:button type="submit" class="breadcrumb-btn">${caja.nombre}</form:button>
+							
+						</li>
+
+					</form:form>
+				</c:forEach>
+			</ol>
 		</nav>
-	
+
+
 		<div class="masthead-heading text-uppercase">Caja de regalo</div>
 	</div>
 
-	<div class="container mt-3 mb-5">	
-	
+	<div class="container mt-3 mb-5">
+
 		<div class="card-deck row">
 			<div class="col-7">
 				<img src="${caja.imagen}" class="card-img-top img-fluid">
@@ -44,9 +54,8 @@
 				</div>
 				<div class="w-100 d-flex mt-5">
 					<a class="btn btn-primary btn-xl w-50 m-1" onclick="mostrar()">
-						Ver dentro</a> 
-					<a class="btn btn-secondary btn-xl text-dark w-50 m-1" data-toggle="modal" data-target="#myModal">
-					Regalar</a>
+						Ver dentro</a> <a class="btn btn-secondary btn-xl text-dark w-50 m-1"
+						data-toggle="modal" data-target="#myModal"> Regalar</a>
 				</div>
 
 			</div>
@@ -84,8 +93,8 @@
 								<label for="mensaje" class="mt-4 mb-1">Mensaje</label>
 
 								<form:textarea path="mensaje" name="mensaje"
-								placeholder="Mensaje (Opcional)" class="mensaje form-control w-100"
-								id="mensaje" maxlength="255"/> 
+									placeholder="Mensaje (Opcional)"
+									class="mensaje form-control w-100" id="mensaje" maxlength="255" />
 							</div>
 						</div>
 

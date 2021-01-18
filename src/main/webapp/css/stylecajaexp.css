@@ -4,6 +4,19 @@
 
 
 
+/***** breadcrumb *****/
+
+.breadcrumb-btn{
+	background-color:transparent !important;
+	border:none;
+}
+
+.breadcrumb-btn:hover{
+	color: #5bc0de;
+	font-weight: bolder;
+}
+
+
 /***** experiencias *****/
 
 .contenedor {

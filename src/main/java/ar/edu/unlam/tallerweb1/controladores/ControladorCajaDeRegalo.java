@@ -54,6 +54,8 @@ public class ControladorCajaDeRegalo {
 		model.put("caja", cajaSeleccionada(caja));
 		model.put("experiencias", experienciasDeLaCaja(caja));
 		model.put("RegaloForm", new RegaloForm());
+		model.put("cajas", servicioCaja.obtenerLista());
+
 
 		return new ModelAndView("caja-seleccionada", model);
 	}
