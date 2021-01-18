@@ -12,10 +12,21 @@
 
 
 	<div class="container mt-5 pt-5">
+	
+			a completar
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="#">Home</a></li>
+		    <li class="breadcrumb-item"><a href="#">Library</a></li>
+		    <li class="breadcrumb-item"><a href="#">ads</a></li>
+		  </ol>
+		</nav>
+	
 		<div class="masthead-heading text-uppercase">Caja de regalo</div>
 	</div>
 
-	<div class="container mt-3 mb-5">
+	<div class="container mt-3 mb-5">	
+	
 		<div class="card-deck row">
 			<div class="col-7">
 				<img src="${caja.imagen}" class="card-img-top img-fluid">
@@ -114,7 +125,7 @@
 	</div>
 
 
-	<%@ include file="./layout/Footer.jsp"%>
+	<%@ include file="./layout/footer.jsp"%>
 	<script src="js/experiencias.js"></script>
 </body>
 </html>
